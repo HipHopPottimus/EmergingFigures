@@ -1,0 +1,13 @@
+#map {
+    width: 100%;
+    height: 20em;
+}
+
+.leaflet-control-attribution {
+    display: none;
+}
+
+.map-insect-icon #Wing, .map-insect-icon #Wing-2 {
+    width: 1em;
+    height: 1em;
+}

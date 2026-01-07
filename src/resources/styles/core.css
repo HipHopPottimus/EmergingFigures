@@ -1,0 +1,118 @@
+* {
+    font-family: system-ui,sans-serif;
+    color: var(--dark-gray);
+}
+
+a {
+    color: var(--purple);
+}
+
+:root {
+    --dark-gray: #333333;
+    --gray: #5c5d60;
+    --light-gray: #97999c;
+    --very-light-gray: hsl(216, 2%, 90%);
+    --purple: #90687b;
+    --light-pink: hsl(2, 74%, 90%);
+    --pink: #f3b2b0;
+    --maroon: #b3404b;
+    --yellow: #edcd73;
+
+    --link-darken: 70%;
+
+    /*tool bar color*/
+    background-color: var(--light-pink);
+}
+
+body {
+    margin: 0;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: white;
+}
+
+header {
+    padding: 1em 0em 1em 0em;
+    height: 5em;
+    display: flex;
+    background-color: var(--light-pink);
+}
+
+main {
+    max-height: 100%;
+}
+
+footer {
+    height: 3em;
+    margin-bottom: 0em;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--light-pink);
+}
+
+header .logo {
+    height: 100%;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.important-centered {
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.icon {
+    position: relative;
+    top: 0.5em;
+    height: 2em;
+}
+
+.caption {
+    font-size: 0.8em;
+    margin-top: 0.25em;
+}
+
+.big-img {
+    height: 10em;
+}
+
+.center-main {
+    margin-top: 30%;
+}
+
+.button {
+    background-color: var(--light-pink);
+    border: 1px solid var(--pink);
+    border-radius: 10px;
+    margin-top: 2em;
+    padding: 10px;
+    font-size: 1em;
+    width: 10em;
+}
+
+a.button {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.resources {
+    background-color: var(--light-pink);
+    padding: 0.25em;
+    border-radius: 1em;
+}
+
+.big-message {
+    font-size: xx-large;
+}

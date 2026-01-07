@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Wasp_template" data-name="Wasp template" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g id="Left_parts" data-name="Left parts">
+    <ellipse id="Head" cx="250.86" cy="139.85" rx="57.67" ry="43.25" fill="#5c5d60"/>
+    <ellipse id="Thorax" cx="250.86" cy="205.25" rx="41.06" ry="55.36" fill="#5c5d60"/>
+    <path id="But" d="M315.35,279.18c0,35.29-28.87,220.82-64.49,220.82s-64.49-185.53-64.49-220.82,28.87-63.89,64.49-63.89,64.49,28.61,64.49,63.89Z" fill="#5c5d60"/>
+    <g id="Right_parts" data-name="Right parts">
+      <ellipse id="Wing" cx="307.67" cy="363.52" rx="64.49" ry="138.71" transform="translate(-140.54 202.54) rotate(-30)" fill="#edcd73"/>
+      <ellipse id="Eye" cx="291.02" cy="139.85" rx="17.3" ry="28.83" fill="#97999c"/>
+      <path d="M282.89,223.73l26.23-27.66c7.9-8.33,12.31-19.38,12.31-30.86h0c0-11.22,4.21-22.04,11.79-30.31l16.19-17.66" fill="none" stroke="#5c5d60" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6.92"/>
+      <g id="Antene_group" data-name="Antene group">
+        <ellipse cx="268.83" cy="99.95" rx="8.51" ry="17.29" fill="#5c5d60"/>
+        <path d="M270.19,88.05h0c18.29-17.65,21.86-45.64,8.58-67.32l-8.58-14" fill="none" stroke="#5c5d60" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6.92"/>
+      </g>
+      <path id="Leggy_bit" data-name="Leggy bit" d="M281.9,455.04l2.77,2.54c9.86,9.04,15.47,21.8,15.47,35.17h0" fill="none" stroke="#5c5d60" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6.92"/>
+    </g>
+    <ellipse id="Wing-2" data-name="Wing" cx="192.33" cy="363.52" rx="138.71" ry="64.49" transform="translate(-218.65 348.33) rotate(-60)" fill="#edcd73"/>
+    <ellipse id="Eye-2" data-name="Eye" cx="208.98" cy="139.85" rx="17.3" ry="28.83" fill="#97999c"/>
+    <path d="M217.11,223.73l-26.23-27.66c-7.9-8.33-12.31-19.38-12.31-30.86h0c0-11.22-4.21-22.04-11.79-30.31l-16.19-17.66" fill="none" stroke="#5c5d60" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6.92"/>
+    <g id="Antene_group-2" data-name="Antene group">
+      <ellipse cx="231.17" cy="99.95" rx="8.51" ry="17.29" fill="#5c5d60"/>
+      <path d="M229.81,88.05h0c-18.29-17.65-21.86-45.64-8.58-67.32l8.58-14" fill="none" stroke="#5c5d60" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6.92"/>
+    </g>
+    <path id="Leggy_bit-2" data-name="Leggy bit" d="M218.1,455.04l-2.77,2.54c-9.86,9.04-15.47,21.8-15.47,35.17h0" fill="none" stroke="#5c5d60" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6.92"/>
+  </g>
+</svg>

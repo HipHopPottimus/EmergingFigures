@@ -1,0 +1,30 @@
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+@keyframes count {
+    from {
+        --num: 0;
+    }
+    to {
+        --num: var(--target-num);
+    }
+}
+
+.wasp-number {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: var(--purple);
+
+    animation: count 2s cubic-bezier(0,0,0,1) forwards;
+    --target-num: attr(data-target number);
+    counter-reset: value var(--num);
+}
+
+.wasp-number::after {
+    content: counter(value);
+}

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "rootDir": "./src",
+
+        "rewriteRelativeImportExtensions": true,
+
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noEmit": false,
+
+        "jsx": "react",
+        "jsxFactory": "Html.createElement",
+        "jsxFragmentFactory": "Html.Fragment",
+        "typeRoots": ["src/typings.d.tsx"],
+        "strict": false
+    },
+
+    "include": ["src/**/*"]
+}

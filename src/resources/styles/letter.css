@@ -1,0 +1,35 @@
+:root {
+    font-family: sans-serif !important;
+}
+
+body {
+    font-size: 12.5pt;
+}
+
+.address {
+    margin: 1em 0em 1em 0em;
+}
+
+.address p {
+    margin: 1px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signature{
+    margin-top: 2em;
+}
+
+.qr-code {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.qr-code img {
+    width: 10em;
+}
